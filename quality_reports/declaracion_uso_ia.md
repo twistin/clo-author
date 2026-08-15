@@ -54,9 +54,26 @@ artículo.
   como comprometedor de la autoría intelectual. Cabe (a) reformular el marco desde criterio propio,
   o (b) declararlo explícitamente y asumir que el tribunal puede interrogarlo en la defensa.
 
-*Atenuantes documentados:* el diario registra como decisiones del autor la posición ontológica C
-(15/05/2026, descartando Marion, Henry y Pickstock) y el recorte de §2.5 de 2.200 a 1.100 palabras.
-Existe rastro de criterio teórico propio sobre el material.
+*Evidencia documentada a favor de la autoría del investigador:*
+
+1. El **diagnóstico** del que nace todo el aparato es suyo: registrado como «el usuario detectó dos
+   lesiones del aparato canónico DeNora-Stokes-Hall-Gilroy» —el aplanamiento ontológico de la Feria
+   y la elusión de la memoria por temor al esencialismo—. La propuesta conceptual responde a un
+   problema que identificó él, no el sistema.
+2. El **eje memorial** es formulación literal suya, con fecha (sesión 11/05/2026): «no puede haber
+   identidad construida o producida en un espacio sin un marco común de memoria». De ahí deriva la
+   incorporación de Connerton.
+3. La **decisión ontológica** (posición C secularizada, 15/05/2026, descartando Marion, Henry y
+   Pickstock) consta como decisión del autor, no de agente.
+4. La **decisión editorial** de recortar §2.5 de 2.200 a 1.100 palabras es suya.
+5. Las **lecturas** son suyas: Pentassuglio (2020) leído completo en OpenEdition; Connerton (1989)
+   caps. I-III íntegros, con extracción de citas y páginas exactas.
+
+Queda por precisar únicamente si el término *synousia* como etiqueta del concepto-puente lo propuso
+el investigador o el sistema. Dado 1-5, la arquitectura teórica —problema, eje memorial, posición
+ontológica, alcance— es del investigador aunque la respuesta fuese «el sistema»: se trataría de la
+sugerencia de un término para un lugar conceptual ya definido por él, no de la delegación de la
+sección teórica que el criterio 2.a prohíbe.
 
 ### Evitar la dependencia (§3 del post) — flujo objetivo
 
@@ -156,8 +173,9 @@ La declaración de la tesis no puede ser esta misma con el nombre cambiado. Tres
 
 Por orden de prioridad:
 
-- [ ] **Resolver el origen de la propuesta de *synousia*** (criterio 2.a). Bloqueante antes de
-      publicar el artículo: determina si el marco teórico se declara o se reformula.
+- [ ] **Precisar el origen del término *synousia*** (criterio 2.a). Ya no es bloqueante: la
+      evidencia documentada sitúa el diagnóstico, el eje memorial y la decisión ontológica en el
+      investigador. Solo hay que redactar la frase que lo declare con exactitud.
 - [ ] **Contrastar el consentimiento informado** con el hecho de que los materiales de campo se han
       procesado en un servicio externo. Afecta a lo prometido a E001, E002 y E003.
 - [ ] **Verificar toda referencia** procedente de `annotated_bibliography.md` contra base de datos
