@@ -3,15 +3,68 @@
 **Formato:** AID Framework (ACRL), seis apartados, al final del documento tras las referencias.
 **Estado:** BORRADOR — requiere confirmación del autor en los puntos marcados `[VERIFICAR]`.
 
-**Fuentes UNED:**
-- Corral, C. (14 mayo 2025), «Cómo declarar el uso de IA en trabajos académicos», InvestigaUNED
-  — establece el **formato** (AID Framework de la ACRL).
-- Corral, C. (23 julio 2026), «Uso ético de la IA en la redacción científica», InvestigaUNED
-  — establece los **criterios sustantivos**: qué usos son legítimos y cuáles no.
+## Marco normativo aplicable, por peso
 
-> **Aviso de alcance.** Ambas entradas son recomendaciones de buenas prácticas de la Biblioteca,
-> no la normativa de la Escuela Internacional de Doctorado. Antes del depósito hay que contrastar
-> esta declaración con el reglamento de la EIDUNED y con el criterio del tutor.
+| Fuente | Naturaleza | Qué aporta |
+|---|---|---|
+| **Reglamento del CEI de la UNED** — anteproyecto de reforma, Vicerrectorado de Investigación | Norma **en tramitación**, no vigente. Derogaría el reglamento de 2018 (mod. 2019 y 2021) | Obligación de someter la tesis al CEI; criterios éticos sobre IA (art. 12.5.f) |
+| Corral, C. (23 jul 2026), «Uso ético de la IA en la redacción científica», InvestigaUNED | Recomendación de la Biblioteca | Criterios sustantivos: usos legítimos vs. no recomendables |
+| Corral, C. (14 may 2025), «Cómo declarar el uso de IA en trabajos académicos», InvestigaUNED | Recomendación de la Biblioteca | Formato de declaración (AID Framework, ACRL) |
+
+Normativa externa invocada por el reglamento: RD 905/2025 de 7 de octubre (que modifica el art. 19
+del RD 640/2021), Reglamento (UE) 2016/679 (RGPD) y Ley Orgánica 3/2018 de protección de datos.
+
+> **Estado del reglamento del CEI.** El texto disponible es un anteproyecto en trámite de
+> información pública. Sus criterios no obligan todavía, pero marcan la dirección y previsiblemente
+> estarán vigentes antes del depósito. Conviene tratarlos como requisito, no como orientación.
+
+---
+
+## Obligación de evaluación ética de la tesis (reglamento del CEI)
+
+Independiente de la cuestión de la IA, y **más urgente que ella**:
+
+- **Art. 3.1 y 3.2 + art. 12.5.** Las tesis doctorales «en las que participen seres humanos […] o
+  sus datos personales» se someten a evaluación del CEI, Sección Primera de Investigación en Seres
+  Humanos (SISH). Esta tesis entra de lleno: entrevistas en profundidad, fichas de informantes,
+  grabaciones y datos personales de E001, E002 y E003.
+- **Art. 3.3.** La solicitud **la presenta el tutor o director**, firmada por él y por el estudiante.
+  No es un trámite que el doctorando pueda iniciar por su cuenta.
+- **Art. 3.2.** El CEI **debe aprobar los modelos de consentimiento informado**. Los consentimientos
+  actualmente en uso no constan aprobados.
+- **Art. 5.2.** Cualquier modificación sustancial en duración o contenidos se comunica al CEI. El
+  alcance de esta tesis está pendiente de confirmar con el tutor, de modo que conviene fijarlo antes
+  de solicitar la evaluación y no después.
+- **Art. 6.3.** Mínimo seis reuniones ordinarias por curso; el calendario con las fechas máximas de
+  recepción se publica en septiembre en la página del CEI.
+
+`[VERIFICAR — PRIORITARIO]` ¿Se ha sometido ya esta tesis al CEI? El checklist de `fieldwork.md`
+deja sin marcar «mención de la aprobación ética institucional». Si no se ha hecho y ya hay tres
+entrevistas realizadas, hay que plantearlo con el tutor cuanto antes: bajo el reglamento vigente
+(2021) la evaluación de tesis está redactada como posibilidad («pudieran ser, en su caso,
+sometidas»), lo que da margen; bajo el anteproyecto pasa a ser exigencia.
+
+---
+
+## Criterios éticos sobre IA del CEI (art. 12.5.f) aplicados al proyecto
+
+El artículo enumera cinco principios que la Sección Primera considerará cuando la iniciativa use
+técnicas de inteligencia artificial. La declaración debe poder responder a los cinco:
+
+| Principio | Situación en este proyecto | Evidencia |
+|---|---|---|
+| **Supervisión humana** | Toda salida pasa por decisión del autor; los críticos no editan archivos, solo puntúan | Separación de poderes en `agents.md`; decisiones editoriales registradas en el diario |
+| **Transparencia** | Cubierta por esta declaración en formato AID | Pendiente de incorporar al artículo y a la tesis |
+| **Explicabilidad** | El diario de investigación registra qué agente intervino, sobre qué archivo y con qué resultado | `quality_reports/research_journal.md` |
+| **Confiabilidad** | Parcialmente comprometida: la generación de referencias produjo un error real (ficha de Huyssen) | Exige la verificación sistemática de citas |
+| **Rendición de cuentas** | La responsabilidad sobre autoría, exactitud e interpretación recae en el investigador | Debe declararse de forma expresa |
+
+El punto débil es **confiabilidad**. Es el único de los cinco con un fallo documentado, y se corrige
+con el mismo procedimiento ya previsto: ninguna referencia se incorpora sin contraste con la fuente.
+
+El art. 12.1.c encarga al Pleno del CEI elaborar «parámetros e indicadores» de integridad científica
+sobre uso y limitaciones de la IA. Esos criterios detallados no existen aún; conviene revisar la
+página del CEI antes del depósito.
 
 ---
 
@@ -142,10 +195,12 @@ argumento y las conclusiones son del autor.
    interpretación de los contenidos recae exclusivamente en el autor.
 2. *Datos de campo y terceros.* El uso de una herramienta alojada externamente implica que
    materiales de campo —transcripciones, notas de observación y fichas de informantes— han sido
-   procesados por un proveedor externo. `[VERIFICAR: contrastar con lo prometido a los informantes
-   en el consentimiento informado. Si el consentimiento no contempla el tratamiento por terceros,
-   hay que decidir entre (a) restringir el uso de la herramienta al material ya anonimizado, o
-   (b) ampliar el consentimiento.]`
+   procesados por un proveedor externo. Esto no es solo una cuestión de palabra dada a los
+   informantes: el art. 2.3 del reglamento del CEI remite expresamente al RGPD y a la LO 3/2018, y
+   el art. 3.2 reserva al Comité la aprobación de los modelos de consentimiento.
+   `[VERIFICAR: contrastar con lo prometido a los informantes en el consentimiento. Si este no
+   contempla el tratamiento por terceros, decidir entre (a) restringir el uso de la herramienta al
+   material ya anonimizado, o (b) ampliar el consentimiento y someter el nuevo modelo al CEI.]`
 3. *Anonimización.* Los informantes aparecen bajo pseudónimo y los datos identificables han sido
    generalizados según el protocolo descrito en el capítulo metodológico.
 4. *Marcado del contenido.* Desde agosto de 2026 el proveedor incorpora marcas de agua estadísticas
@@ -173,16 +228,32 @@ La declaración de la tesis no puede ser esta misma con el nombre cambiado. Tres
 
 Por orden de prioridad:
 
-- [ ] **Precisar el origen del término *synousia*** (criterio 2.a). Ya no es bloqueante: la
-      evidencia documentada sitúa el diagnóstico, el eje memorial y la decisión ontológica en el
-      investigador. Solo hay que redactar la frase que lo declare con exactitud.
-- [ ] **Contrastar el consentimiento informado** con el hecho de que los materiales de campo se han
-      procesado en un servicio externo. Afecta a lo prometido a E001, E002 y E003.
+**Con el tutor, cuanto antes:**
+
+- [ ] **Determinar si la tesis debe someterse ya al CEI** y, en su caso, iniciar el expediente. La
+      solicitud la firma el tutor (art. 3.3). Comprobar el calendario de la Sección Primera, que se
+      publica en septiembre.
+- [ ] **Someter los modelos de consentimiento informado** a aprobación del CEI (art. 3.2), con la
+      previsión de tratamiento por terceros ya incorporada.
+- [ ] **Fijar el alcance de la tesis** antes de solicitar la evaluación: una modificación sustancial
+      posterior obliga a comunicarla al CEI (art. 5.2).
+
+**Antes de publicar el artículo:**
+
 - [ ] **Verificar toda referencia** procedente de `annotated_bibliography.md` contra base de datos
-      académica antes de incorporarla (criterio 2.b).
-- [ ] Verificar el reglamento de la Escuela Internacional de Doctorado de la UNED sobre uso de IA.
-- [ ] Consultar el criterio del tutor antes del depósito.
+      académica. Es el punto donde el proyecto falla el criterio de *confiabilidad* del art. 12.5.f.
+- [ ] **Precisar el origen del término *synousia*** (criterio 2.a de InvestigaUNED). No bloqueante:
+      la evidencia documentada sitúa el diagnóstico, el eje memorial y la decisión ontológica en el
+      investigador. Basta redactar la frase que lo declare con exactitud.
 - [ ] Confirmar si se completó la revisión del autor sobre los cuatro bloques del §4 (20/07/2026).
+- [ ] Incorporar la declaración al final del artículo, tras las referencias.
+
+**De fondo:**
+
+- [ ] Vigilar la aprobación definitiva del reglamento del CEI y los «parámetros e indicadores» sobre
+      IA que debe elaborar el Pleno (art. 12.1.c).
 - [ ] Comprobar si los memos analíticos del vault (`ANA_*`) contienen texto generado; si es así,
       ampliar el apartado «Propósito del uso» con la función de análisis.
 - [ ] Convertir el modo «lista de cambios» en comportamiento por defecto del agente `writer`.
+- [ ] Actualizar las rutas del vault en `CLAUDE.md` y `fieldwork.md`: apuntan a
+      `/Users/sdcarr/Documents/UNED-investigacion`, que ya no existe.
